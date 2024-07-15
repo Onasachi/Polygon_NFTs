@@ -3,7 +3,7 @@
 ---
 This project involves the creation and deployment of an ERC721A-compliant NFT (Non-Fungible Token)
 contract named MetaTokenNFT on Sepolia Ethereum testnet then approve and deposit the NFT to Polygon
-Mumbai using their fxPortal bridge. The NFTs represent a collection of Iconic Nigerian landmarks and architecture such as the Zuma Rock, 3rd mainland bridge, yankari game reserve, obudu cattle ranch and kainji dam.
+Amoy using their fxPortal bridge. 
 
 ## Getting Started
 
@@ -58,7 +58,7 @@ The response log will look like:
 Successfully minted: <number> MetaToken NFTs to <WALLET-ADDRESS>
 ```
 ### Approve transfer and deposit the NFTs to Polygon bridge
-Pass in the Polygon Mumbai bridged address of your contract to `BRIDGE-ADDRESS` in
+Pass in the Polygon Amoy bridged address of your contract to `BRIDGE-ADDRESS` in
 `.env`, then run the `approveTransfer.js` script with hardhat:
 ```shell
 npx hardhat run --network sepolia scripts/nft/approveTransfer.js
@@ -66,7 +66,7 @@ npx hardhat run --network sepolia scripts/nft/approveTransfer.js
 The response should look like this:
 ```
 NFT approval confirmed
-NFT deposited on Polygon Mumbai
+NFT deposited on Polygon Amoy
 ```
 
 
